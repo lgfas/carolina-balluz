@@ -3,7 +3,18 @@
 @import url('./reset.css');
 @import url('./modules/Footer/footer.css');
 @import url('./modules/Header/header.css');
+@import url('./modules/MainBanner/main-banner.css');
 
+:root {
+    --color-primary: #004D4F;
+    --color-secondary: #006D6E;
+    --color-background: #BDE0E0;
+    --color-button: #FF6B6B;
+    --color-white: #F0F0F0;
+    --color-black: #303030;
+    --color-form-attention: #FFD700;
+    --color-form-error: #D32F2F;
+}
 
 * {
     font-family: "Montserrat", sans-serif;
@@ -11,7 +22,7 @@
 }
 
 .button {
-    background: #FF6B6B;
+    background: var(--color-button);
     padding: 8px 16px;
     border-radius: 8px;
     color: #fff;

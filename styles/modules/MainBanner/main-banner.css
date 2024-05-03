@@ -1,0 +1,15 @@
+
+.main-banner {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 0px 0px 32px;
+    background: linear-gradient(var(--color-background), var(--color-secondary));
+
+}
+
+.conhecer-areas {
+   display: inline-flex;
+   align-items: center;
+   gap: 8px; 
+}

@@ -24,7 +24,7 @@
     right: -500px;
     width: 500px;
     height: 100%;
-    background: #004D4F;
+    background: var(--color-primary);
     color: #fff;
     transition: right 0.3s ease; 
     z-index: 1; 

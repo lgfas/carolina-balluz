@@ -2,6 +2,7 @@
 @import url('../assets/fonts/NT\ Vanilla.otf');
 @import url('./reset.css');
 @import url('./modules/Footer/footer.css');
+@import url('./modules/Header/header.css');
 
 
 * {
@@ -9,6 +10,13 @@
     font-optical-sizing: auto;
 }
 
+.button {
+    background: #FF6B6B;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+}
 .container {
     max-width: 1264px;
 }

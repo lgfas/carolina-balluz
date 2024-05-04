@@ -1,15 +1,22 @@
-
 .main-banner {
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 64px 0px 0px 32px;
-    background: linear-gradient(var(--color-background), var(--color-secondary));
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #bde0e0aa, #79cbcb);
+}
 
+.banner-content {
+  margin-left: 80px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 22px;
 }
 
 .conhecer-areas {
-   display: inline-flex;
-   align-items: center;
-   gap: 8px; 
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }

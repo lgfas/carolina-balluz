@@ -1,33 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('../assets/fonts/NT\ Vanilla.otf');
-@import url('./reset.css');
-@import url('./modules/Footer/footer.css');
-@import url('./modules/Header/header.css');
-@import url('./modules/MainBanner/main-banner.css');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("../assets/fonts/NT\ Vanilla.otf");
+@import url("./reset.css");
+@import url("./modules/Footer/footer.css");
+@import url("./modules/Header/header.css");
+@import url("./modules/MainBanner/main-banner.css");
 
 :root {
-    --color-primary: #004D4F;
-    --color-secondary: #006D6E;
-    --color-background: #BDE0E0;
-    --color-button: #FF6B6B;
-    --color-white: #F0F0F0;
-    --color-black: #303030;
-    --color-form-attention: #FFD700;
-    --color-form-error: #D32F2F;
+  --color-primary: #004d4f;
+  --color-secondary: #006d6e;
+  --color-background: #bde0e0;
+  --color-button: #ff6b6b;
+  --color-white: #f0f0f0;
+  --color-black: #303030;
+  --color-form-attention: #ffd700;
+  --color-form-error: #d32f2f;
 }
 
 * {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .button {
-    background: var(--color-button);
-    padding: 8px 16px;
-    border-radius: 8px;
-    color: #fff;
-    font-size: 14px;
+  background: var(--color-button);
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
 }
 .container {
-    max-width: 1264px;
+  max-width: 1264px;
 }

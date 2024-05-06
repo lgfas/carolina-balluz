@@ -1,62 +1,67 @@
 .header {
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 64px 0px 0px 32px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 24px;
 }
 
 .menu-container {
-    display: flex;
-    vertical-align: middle;
-    gap: 64px;
+  display: flex;
+  vertical-align: middle;
+  gap: 64px;
 }
 
 .agendar-consulta {
-   display: inline-flex;
-   align-items: center;
-   gap: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .sidebar {
-    position: absolute;
-    display: none;
-    top: 0;
-    right: -500px;
-    width: 500px;
-    height: 100%;
-    background: var(--color-primary);
-    color: #fff;
-    transition: right 0.3s ease; 
-    z-index: 1; 
-    padding: 32px;
-    border-top-left-radius: 16px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
+  position: absolute;
+  display: none;
+  top: 0;
+  right: -500px;
+  width: 500px;
+  height: 100%;
+  background: var(--color-primary);
+  color: #fff;
+  transition: right 0.3s ease;
+  z-index: 1;
+  padding: 32px;
+  border-top-left-radius: 16px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
 }
 
 .menu-open .sidebar {
-    display: block;
-    right: 0; 
+  display: block;
+  right: 0;
 }
 .header-sidebar {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .icon-close img {
-    width: 32px;
+  width: 32px;
 }
 .menu-sidebar {
-    margin-top: 32px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 .menu-sidebar li {
-    border-bottom: 1px solid  rgba(255, 255, 255, 0.2);
-    margin: 2px 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 2px 0px;
 }
 
-.social-sidebar{
-    margin-top: 32px;
-    display: flex;
-    gap: 14px;
+.social-sidebar {
+  margin-top: 32px;
+  display: flex;
+  gap: 14px;
+}
+
+.logo-image {
+  height: 60px;
 }

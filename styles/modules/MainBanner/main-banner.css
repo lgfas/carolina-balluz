@@ -1,22 +1,45 @@
 .main-banner {
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 80px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
   border-radius: 8px;
+  overflow: hidden;
   background: linear-gradient(180deg, #bde0e0aa, #79cbcb);
 }
 
+.main-banner::after {
+  content: "";
+  background: url("/assets/images/icons/geneticist.png");
+  position: absolute;
+  right: -210px;
+  width: 100%;
+  height: 100%;
+}
+
 .banner-content {
-  margin-left: 80px;
-  display: grid;
-  grid-template-columns: 1fr;
+  align-self: flex-start;
+  font-family: "NT Vanilla";
+  font-size: 16px;
+  margin: 150px 0px 0px 80px;
+  display: flex;
+  flex-direction: column;
   gap: 22px;
+  flex-grow: 1;
 }
 
 .conhecer-areas {
   display: inline-flex;
-  align-items: center;
+  align-self: flex-start;
   gap: 8px;
+}
+
+.main-banner-img {
+  z-index: 1;
+}
+
+.main-banner-img img {
+  height: 500px;
+  width: 520px;
+  object-fit: cover;
 }

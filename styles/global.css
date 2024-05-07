@@ -4,6 +4,8 @@
 @import url("./modules/Footer/footer.css");
 @import url("./modules/Header/header.css");
 @import url("./modules/MainBanner/main-banner.css");
+@import url("./modules/Expertises/expertises.css");
+@import url("./modules/How/how.css");
 
 :root {
   --color-primary: #004d4f;

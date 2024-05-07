@@ -1,0 +1,9 @@
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.swiper-slide {
+  background: url("/assets/images/bg-investigacao.png");
+  background-size: cover;
+}

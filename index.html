@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carolina Balluz</title>
     <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -103,9 +106,60 @@
 
         </div>
     </main>
-    <div class="teste">
+    <section id="expertises">
+        <div class="container sliders">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <h3>Investigação de Síndromes e Doenças Raras</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non nisi lectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non nisi lectus.</p>
+                        <a href=""><img src="/assets/images/icons/arrow.svg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
 
-    </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how">
+        <div class="container how">
+            <h2>Como funciona a consulta?</h2>
+            <div>
+                <ul class="how-cards">
+                    <li>
+                        <span>1</span>
+                        <p>Inscreva-se no site</p>
+                        <img src="/assets/images/icons/subscribe.svg" alt="">
+                    </li>
+                    <li>
+                        <span>2</span>
+                        <p>Entraremos em contato com você</p>
+                        <img src="/assets/images/icons/chat.svg" alt="">
+                    </li>
+                    <li>
+                        <span>3</span>
+                        <p>Prepare-se para o seu exame</p>
+                        <img src="/assets/images/icons/heart.svg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="container footer">
             <div class="menu-footer">

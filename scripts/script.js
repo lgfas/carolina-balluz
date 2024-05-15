@@ -11,24 +11,19 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-const swiper = new Swiper(".swiper", {
-  // Optional parameters
-  //direction: "horizontal",
+
+
+var mySwiper = new Swiper('.mySwiper', {
+  slidesPerView: 4,
+  spaceBetween: 30,
   loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
-  },
-
-  // Navigation arrows
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
+  autoplay: {
+    delay: 2500,  // O tempo de atraso em milissegundos entre transições automáticas
+    disableOnInteraction: false,  // Continuar autoplay após interações do usuário (como swipes)
   },
+  speed: 1000,
 });

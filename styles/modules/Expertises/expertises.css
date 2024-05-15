@@ -1,9 +1,20 @@
-.swiper {
-  width: 600px;
-  height: 300px;
-}
-
 .swiper-slide {
   background: url("/assets/images/bg-investigacao.png");
   background-size: cover;
+  height: 200px !important;
+  width: calc(100% / 4); /* Assume 4 slides visíveis ao mesmo tempo */
+  transition: width 0.5s ease-in-out; /* Adiciona transição suave para a largura */
+}
+
+.container-slide {
+  margin: 0 auto;
+  max-width: 1200px; /* Ajustar conforme necessário */
+}
+
+.swiper-slide-active {
+  width: 500px !important; /* Largura específica para o slide ativo */
+}
+
+.swiper-wrapper {
+  align-items: center; /* Certifica-se de que todos os slides estejam alinhados verticalmente */
 }

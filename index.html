@@ -7,8 +7,8 @@
     <title>Carolina Balluz</title>
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -107,32 +107,27 @@
         </div>
     </main>
     <section id="expertises">
-        <div class="container sliders">
-            <!-- Slider main container -->
-            <div class="swiper">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <h3>Investigação de Síndromes e Doenças Raras</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non nisi lectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non nisi lectus.</p>
-                        <a href=""><img src="/assets/images/icons/arrow.svg" alt=""></a>
-                    </div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    ...
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
-            </div>
+        
+        <div class="container container-slide ">
+          <!-- Slider principal -->
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="imagem1.jpg" alt="Imagem 1"></div>
+      <div class="swiper-slide"><img src="imagem2.jpg" alt="Imagem 2"></div>
+      <div class="swiper-slide"><img src="imagem3.jpg" alt="Imagem 3"></div>
+      <div class="swiper-slide"><img src="imagem4.jpg" alt="Imagem 5"></div>
+      <div class="swiper-slide"><img src="imagem4.jpg" alt="Imagem 6"></div>
+      <div class="swiper-slide"><img src="imagem4.jpg" alt="Imagem 7"></div>
+      <div class="swiper-slide"><img src="imagem4.jpg" alt="Imagem 8"></div>
+      <!-- Adicione mais slides conforme necessário -->
+    </div>
+    <!-- Botões de Navegação -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+  
         </div>
+        
     </section>
 
     <section id="how">

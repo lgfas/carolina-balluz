@@ -1,20 +1,33 @@
 .swiper-slide {
-  background: url("/assets/images/bg-investigacao.png");
-  background-size: cover;
-  height: 200px !important;
-  width: calc(100% / 4); /* Assume 4 slides visíveis ao mesmo tempo */
-  transition: width 0.5s ease-in-out; /* Adiciona transição suave para a largura */
+  background-color: green;
+  width: calc(100% / 4);
+  transition: width 0.5s ease-in-out; 
+  border-radius: 8px;
+  display: flex !important;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px;
+  height: auto !important;
+  align-items: start;
 }
 
 .container-slide {
-  margin: 0 auto;
-  max-width: 1200px; /* Ajustar conforme necessário */
+  margin: 32px auto;
+  max-width: 1200px;
+  display: flex;
+  position: relative;
 }
 
 .swiper-slide-active {
-  width: 500px !important; /* Largura específica para o slide ativo */
+  width: 500px !important;
+  height: 200px;
 }
 
-.swiper-wrapper {
-  align-items: center; /* Certifica-se de que todos os slides estejam alinhados verticalmente */
+.swiper-button-prev {
+  bottom: -20px !important;
+ left: 92% !important;
+}
+
+swiper-button-next {
+
 }

@@ -1,6 +1,12 @@
 #location {
   margin-bottom: 80px;
   position: relative;
+  background: var(--color-black);
+  transition: 0.5s;
+}
+
+#location:hover {
+  background: none;
 }
 
 .location-iframe {
@@ -21,6 +27,12 @@
 .location h3 {
   font-family: "NT Vanilla", serif;
   font-size: 32px;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+#location:hover h3 {
+  color: #000000;
 }
 
 .location a {

@@ -6,6 +6,7 @@
 @import url("./modules/MainBanner/main-banner.css");
 @import url("./modules/Expertises/expertises.css");
 @import url("./modules/How/how.css");
+@import url("./modules/Call-to-action/call-to-action.css");
 
 :root {
   --color-primary: #004d4f;

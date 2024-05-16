@@ -8,6 +8,7 @@
 @import url("./modules/How/how.css");
 @import url("./modules/Call-to-action/call-to-action.css");
 @import url("./modules/About/about.css");
+@import url("./modules/Location/location.css");
 
 :root {
   --color-primary: #004d4f;

@@ -1,0 +1,30 @@
+#location {
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.location-iframe {
+  opacity: 0.3;
+  width: 100%;
+  z-index: -1;
+}
+
+.location {
+  position: absolute;
+  top: 30%;
+  left: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.location h3 {
+  font-family: "NT Vanilla", serif;
+  font-size: 32px;
+}
+
+.location a {
+  display: inline-flex;
+  gap: 8px;
+  max-width: max-content;
+}

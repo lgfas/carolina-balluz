@@ -10,6 +10,7 @@
 @import url("./modules/About/about.css");
 @import url("./modules/Location/location.css");
 @import url("./modules/Faq/faq.css");
+@import url("./modules/Contact/contact.css");
 
 :root {
   --color-primary: #004d4f;

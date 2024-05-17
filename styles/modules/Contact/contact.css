@@ -1,0 +1,7 @@
+.contact {
+    margin: 32px auto;
+    background-color: green;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

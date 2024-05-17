@@ -1,3 +1,21 @@
+@keyframes slideIn {
+  from {
+    right: -500px;
+  }
+  to {
+    right: 0;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    right: 0;
+  }
+  to {
+    right: -500px;
+  }
+}
+
 .header {
   margin: 0 auto;
   display: flex;
@@ -5,7 +23,6 @@
   align-items: center;
   padding: 32px 24px;
 }
-
 .menu-container {
   display: flex;
   vertical-align: middle;
@@ -38,21 +55,27 @@
 .menu-open .sidebar {
   display: block;
   right: 0;
+  animation: slideIn 0.3s forwards;
 }
+
 .header-sidebar {
   display: flex;
   justify-content: space-between;
 }
+
 .icon-close img {
   width: 32px;
   cursor: pointer;
+   animation: slideOut 0.3s forwards;
 }
+
 .menu-sidebar {
   margin-top: 32px;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
+
 .menu-sidebar li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   margin: 2px 0px;
@@ -66,4 +89,36 @@
 
 .logo-image {
   height: 60px;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+  }
+
+  .menu-container {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .agendar-consulta {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .sidebar {
+    width: 100%;
+    right: -100%;
+  }
+
+  .menu-open .sidebar {
+    right: 0;
+  }
+
+  .logo-image {
+    height: 40px;
+  }
 }

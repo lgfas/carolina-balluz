@@ -77,10 +77,13 @@
                             <span class="icon-close"><img src="./assets/images/icons/close.svg" alt=""></span>
                         </div>
                         <ul class="menu-sidebar">
-                            <li><a href="#">Item 1</a></li>
-                            <li><a href="#">Item 2</a></li>
-                            <li><a href="#">Item 3</a></li>
-                            <li><a href="#">Item 4</a></li>
+                            <li class="item-menu-footer"><a href="">Inicio</a></li>
+                            <li class="item-menu-footer"><a href="">Áreas de atuação</a></li>
+                            <li class="item-menu-footer"><a href="">Processos de atendimento</a></li>
+                            <li class="item-menu-footer"><a href="">Perguntas frequentes</a></li>
+                            <li class="item-menu-footer"><a href="">Sobre mim</a></li>
+                            <li class="item-menu-footer"><a href="">Encontre a clínica</a></li>
+                            <li class="item-menu-footer"><a href="">Agendar consulta</a></li>
                         </ul>
                         <ul class="social-sidebar">
                             <li> <a href="" class="button agendar-consulta"> <img src="./assets/images/icons/icone-instagram.svg" alt="Ícone para agendar consulta"></a></li>
@@ -96,8 +99,8 @@
         <div class="container main-banner">
 
             <div class="banner-content">
-                <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h1>Drª Carolina Balluz - Excelência em Genética Médica: Diagnósticos Precisos e Cuidado Humanizado</h1>
+                <p>Excelência em Genética Médica: Diagnósticos Precisos, Cuidado Humanizado e Apoio Integral.</p>
                 <a href="#" class="button conhecer-areas">Áreas de atuação<img src="./assets/images/icons/arrow.svg" alt=""></a>
             </div>
             <div class="main-banner-img">
@@ -110,7 +113,7 @@
 
         <div id="myModal" class="modal">
             <div class="modal-content">
-              <span class="close">&times;</span>
+              <span class="close"><img src="./assets/images/icons/close.svg" alt=""></span>
               <div id="modal-content"></div>
             </div>
           </div>
@@ -136,13 +139,13 @@
                         <p>Investigação das bases genéticas de doenças 
                             neurológicas, abrangendo desde as doenças neurológicas
                              da infância...</p>
-                             <a class="button" href="">Saiba mais</a>
+                             <a class="button saiba-mais" href="#" data-content="conteudo3">Saiba mais</a>
                     </div>
                     <div class="swiper-slide onco-genetica">
                         <h4>Oncogenética</h4>
                         <p> Possibilita o estudo de fatores genéticos que 
                             aumentam o risco de desenvolver câncer ao longo da vida...</p>
-                        <a class="button" href="">Saiba mais</a>
+                            <a class="button saiba-mais" href="#" data-content="conteudo4">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -155,12 +158,78 @@
       
 
           <div id="conteudo1" style="display: none;">
-            <h2>Conteúdo Adicional - Reprodução Humana</h2>
-            <p>Mais informações sobre reprodução humana...</p>
+            <h2>Reprodução Humana - Saiba mais</h2>
+            <p>Nessa área, auxiliamos casais com infertilidade, histórico de abortos espontâneos, e gestações anteriores com malformações congênitas. Também é possível orientar quanto ao risco de recorrência de doenças genéticas já identificadas na família, explicação sobre exames genéticos pré-implantacionais, além de orientações quanto aos riscos envolvendo consanguinidade e idade materna/paterna avançada.
+            </p>
+            <h3>Quando procurar</h3>
+            <ol>
+                <li>Casais com histórico de abortamento de repetição ou de infertilidade</li>
+                <li>Casais com histórico familiar de doenças genéticas ou com grau de parentesco
+                    entre si (consanguinidade)</li>
+                <li>Planejamento de gestação em idade materna/paterna avançada</li>
+            </ol>
           </div>
+        
           <div id="conteudo2" style="display: none;">
-            <h2>Conteúdo Adicional - Outro</h2>
-            <p>Mais informações sobre reprodução humana...</p>
+            <h2>Investigação de Síndromes e Doenças Raras <br> - Saiba mais</h2>
+            <p>As Doenças Raras são condições que afetam um pequeno número de pessoas em comparação com a população geral, mais precisamente, quando afeta cerca de 1,3 para cada 2000 indivíduos. Aproximadamente 80% das doenças raras são de origem genética.
+                As Síndromes Genéticas são caracterizadas pelo acometimento de mais de um órgão/sistema, ocasionados por uma mesma alteração genética. Frequentemente apresentam uma ampla gama de sintomas e manifestações clínicas, o que pode tornar o diagnóstico e o manejo desafiadores.
+            </p>
+            <h3>Quando procurar</h3>
+            <ol>
+                <li>Identificação de malformações fetais em exames de ultrassom ou alterações em exames de triagem durante o acompanhamento pré-natal</li>
+                <li>Recém-nascidos com alterações em testes de triagem neonatal</li>
+                <li>Recém-nascidos com identificação de genitália atípica ao nascimento</li>
+                <li>Crianças que nasceram com malformações (alteração na
+                    formação/funcionamento de órgãos como fenda palatina, alterações do
+                    coração, cérebro, rins, e etc)</li>
+                <li>Crianças com distúrbios metabólicos/suspeita de erros inatos do metabolismo
+                    (por exemplo, quadros de hipoglicemia, acidose/alcalose metabólica
+                    persistentes, aumento do fígado/baço)</li>
+                <li>Crianças com infecções de repetição ou suspeita de imunodeficiência</li>
+                <li>Pessoas com alterações de crescimento (baixa ou alta estatura sem causa
+                    conhecida ou hipercrescimento, de forma assimétrica, de membros ou outras
+                    partes do corpo)</li>
+                <li>Pessoas com fraturas ósseas de repetição ou deformidades ósseas
+                    importantes</li>
+                <li>Pessoas com surdez ou perda progressiva da visão, de início precoce ou sem
+                    causa definida</li>
+                <li>Pessoas com cardiopatias em idade precoce sem causa definida ou histórico
+                    familiar de morte súbita</li>
+                <li>Pessoas com alterações de pele que sugerem causa genética (como
+                    neurofibromatose, albinismo, esclerose tuberosa, epidermólise bolhosa e etc)</li>
+            </ol>
+          </div>
+
+          <div id="conteudo3" style="display: none;">
+            <h2>Neurogenética - Saiba mais</h2>
+            <p>Investigação das bases genéticas de doenças neurológicas, abrangendo desde as doenças neurológicas da infância (relacionadas ao neurodesenvolvimento, Transtorno do Espectro Autista, Epilepsia) quanto às doenças de distúrbio de movimento, doenças neuromusculares ou até neurodegenerativas. Além do diagnóstico, é feito o processo de aconselhamento genético para paciente e família, assim como manejo e tratamentos direcionados.
+            </p>
+            <h3>Quando procurar</h3>
+            <ol>
+                <li>Crianças com atraso de desenvolvimento neurológico (como hipotonia, atraso motor, de fala, e etc)</li>
+                <li>Crianças com regressão dos marcos do desenvolvimento</li>
+                <li>Pessoas com Transtorno do Espectro Autista (TEA)</li>
+                <li>Pessoas com epilepsia de difícil controle</li>
+                <li>Pessoas com distúrbio de movimento, neuropatias e doenças
+                    neuromusculares em idade precoce ou presença de histórico familiar</li>
+                <li>Pessoas com distúrbios neurodegenerativos, como demência, em idade
+                    precoce ou presença de histórico familiar</li>
+            </ol>
+          </div>
+
+          <div id="conteudo4" style="display: none;">
+            <h2>Oncogenética - Saiba mais</h2>
+            <p>Possibilita o estudo de fatores genéticos que aumentam o risco de desenvolver câncer ao longo da vida. É importante para investigação em situações de vários casos de câncer em uma mesma família, diagnóstico de câncer em idade jovem, um mesmo paciente com mais de um tumor ou tipos raros/atípicos de tumores. Proporciona o seguimento específico para o paciente em risco de desenvolver câncer, investigação em familiares e alternativas de rastreio para síndromes de predisposição hereditária a câncer.
+            </p>
+            <h3>Quando procurar</h3>
+            <ol>
+                <li>Pessoas com diagnóstico de câncer em idade jovem ou com múltiplos tumores primários</li>
+                <li>Pessoas com tumores raros/atípicos, diagnóstico de câncer de ovário, diagnóstico de câncer de mama em homens</li>
+                <li>Histórico familiar de câncer</li>
+                <li>Câncer na infância</li>
+                <li>Outras doenças genéticas que aumentem o risco de desenvolver câncer</li>
+            </ol>
           </div>
 
 
@@ -178,12 +247,12 @@
                     </li>
                     <li>
                         <span>2</span>
-                        <p>Entraremos em contato com você</p>
+                        <p>Selecione a área de atuação</p>
                         <img src="/assets/images/icons/chat.svg" alt="">
                     </li>
                     <li>
                         <span>3</span>
-                        <p>Prepare-se para o seu exame</p>
+                        <p>Aguarde entrarmos em contato</p>
                         <img src="/assets/images/icons/heart.svg" alt="">
                     </li>
                 </ul>
@@ -193,7 +262,7 @@
 
     <section id="call-to-action">
         <div class="container call-to-action">
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+            <h2>Agende Sua Consulta e Receba o Melhor Cuidado em Genética Médica!</h2>
             <a href="" class="button"><img src="/assets/images/icons/fale-conosco.svg" alt="">Fale conosco</a>
         </div>
     </section>
@@ -282,6 +351,7 @@
                         <input placeholder="E-mail" type="text">
                         <label for="area-atuacao"></label>
                         <input placeholder="Área de atuação" type="text">
+                        <input class="button btn-contact" type="button" value="Enviar mensagem">
                     </form>
             </div>
         </div>
@@ -322,7 +392,6 @@
             <p>Carolina Balluz © 2024 | CRM XXXXXX</p>
         </div>
     </footer>
-
     <script src="./scripts/script.js"></script>
 </body>
 

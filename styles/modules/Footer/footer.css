@@ -50,3 +50,9 @@ footer {
  .politicas {
     margin-left: 100px;
  }
+
+ @media only screen and (max-width: 768px) { 
+    .footer {
+        grid-template-columns: 1fr;
+    }
+ }

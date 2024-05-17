@@ -83,23 +83,6 @@
   position: relative;
 }
 
-/*  POPUP */
-
-.popup {
-  color: white;
-  position: absolute;
-  left: 40%;
-  right: 40%;
-  width: 300px;
-  height: 300px;
-  background-color: black;
-  z-index: 1000;
-  top: 30%;
-  display: none;
-}
-
-
-
 
 
 /* Modal */
@@ -117,14 +100,29 @@
 
 /* Modal Content */
 .modal-content {
-  background-color: #fefefe;
+  border-radius: 8px;
+  background-color: var(--color-white);
   margin: 10% auto; /* 10% from the top and centered */
   padding: 20px;
-  border: 1px solid #888;
+  border: .5px solid var(--color-background);
   width: 80%; /* Could be more or less, depending on screen size */
   max-width: 600px; /* Limit the width */
 }
 
+.modal-content  h2,
+.modal-content h3 {
+  font-family: "NT Vanilla", serif;
+}
+
+.modal-content p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  margin: 16px 0px;
+}
+.modal-content ol li {
+  margin: 16px 0px;
+}
 /* Close Button */
 .close {
   color: #aaa;
@@ -133,23 +131,18 @@
   font-weight: bold;
 }
 
+.close img {
+  width: 32px;
+}
+
 .close:hover,
 .close:focus {
-  color: black;
-  text-decoration: none;
+  transform: scale(1.2);
   cursor: pointer;
+  transition: 1s;
 }
 
 /* Conteúdo dentro do Modal */
 #modal-content {
-  /* Estilos opcionais para o conteúdo dentro do modal */
-  /* Você pode personalizar isso conforme necessário */
   color: #333;
 }
-
-/* Estilos para os conteúdos adicionais */
-#conteudo1 {
-  /* Estilos para o primeiro conteúdo adicional */
-}
-
-/* Adicione estilos para outros conteúdos adicionais conforme necessário */

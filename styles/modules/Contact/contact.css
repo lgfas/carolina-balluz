@@ -1,7 +1,38 @@
 .contact {
-    margin: 32px auto;
-    background-color: green;
-    height: 200px;
+    margin: 0px auto 80px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.form-contact form {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-background);
+    padding: 32px;
+    border-radius: 8px;
+    gap: 8px;
+
+}
+.form-contact input {
+    border: none;
+    appearance: none;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.btn-contact {
+    align-self: flex-end;
+    margin-top: 16px;
+}
+
+.infos h3 {
+    font-family: "NT Vanilla", serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.infos p {
+   font-size: 16px;
+   line-height: 24px;
+   width: 80%;
 }

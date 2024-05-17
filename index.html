@@ -108,6 +108,13 @@
     </main>
     <section id="expertises">
 
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div id="modal-content"></div>
+            </div>
+          </div>
+
         <div class="container container-slide ">
             <!-- Slider principal -->
             <div class="swiper mySwiper">
@@ -116,26 +123,26 @@
                         <h4>Reprodução Humana</h4>
                         <p>Nessa área, auxiliamos casais com infertilidade, 
                             histórico de abortos espontâneos, e gestações anteriores com malformações congênitas...</p>
-                        <a id="teste" href=""><img src="./assets/images/icons/arrow.svg" alt=""></a>
+                            <a class="button saiba-mais" href="#" data-content="conteudo1">Saiba mais</a>
                     </div>
                     <div class="swiper-slide doencas-raras ">
                         <h4>Investigação de Síndromes e Doenças Raras</h4>
                         <p>As Doenças Raras são condições que afetam um pequeno número de pessoas em comparação com 
                             a população geral...</p>
-                        <a href=""><img src="./assets/images/icons/arrow.svg" alt=""></a>
+                            <a class="button saiba-mais" href="#" data-content="conteudo2">Saiba mais</a>
                     </div>
                     <div class="swiper-slide neuro-genetica">
                         <h4>Neurogenética</h4>
                         <p>Investigação das bases genéticas de doenças 
                             neurológicas, abrangendo desde as doenças neurológicas
                              da infância...</p>
-                        <a href=""><img src="./assets/images/icons/arrow.svg" alt=""></a>
+                             <a class="button" href="">Saiba mais</a>
                     </div>
                     <div class="swiper-slide onco-genetica">
                         <h4>Oncogenética</h4>
                         <p> Possibilita o estudo de fatores genéticos que 
                             aumentam o risco de desenvolver câncer ao longo da vida...</p>
-                        <a href=""><img src="./assets/images/icons/arrow.svg" alt=""></a>
+                        <a class="button" href="">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -145,9 +152,18 @@
                        <div class="swiper-button-next"></div>
             </div>
         </div>
-        <div class="popup">
-            <h1>Titulo do popup</h1>
-        </div>
+      
+
+          <div id="conteudo1" style="display: none;">
+            <h2>Conteúdo Adicional - Reprodução Humana</h2>
+            <p>Mais informações sobre reprodução humana...</p>
+          </div>
+          <div id="conteudo2" style="display: none;">
+            <h2>Conteúdo Adicional - Outro</h2>
+            <p>Mais informações sobre reprodução humana...</p>
+          </div>
+
+
     </section>
 
     <section id="how">

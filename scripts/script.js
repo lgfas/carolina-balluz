@@ -67,3 +67,36 @@ document.addEventListener('DOMContentLoaded', () => {
   firstQuestion.setAttribute("aria-expanded", true);
 });
 
+
+
+
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+// Event listener for "Saiba mais" buttons
+var saibaMaisButtons = document.querySelectorAll('.saiba-mais');
+saibaMaisButtons.forEach(function(button) {
+  button.addEventListener('click', function(event) {
+    event.preventDefault();
+    var contentId = this.getAttribute('data-content');
+    var content = document.getElementById(contentId).innerHTML;
+    document.getElementById('modal-content').innerHTML = content;
+    modal.style.display = "block";
+  });
+});

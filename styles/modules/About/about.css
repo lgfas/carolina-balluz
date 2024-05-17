@@ -4,7 +4,7 @@
 
 .about {
   margin: 0 auto;
-  padding: 80px 0px;
+  padding-top: 80px;
   margin-bottom: 80px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -33,6 +33,6 @@
 
 .about-content-buttons a {
 	display: inline-flex;
-  vertical-align: middle;
-  gap: 8px;
+  	vertical-align: middle;
+  	gap: 8px;
 }

@@ -1,16 +1,22 @@
 #location {
   margin-bottom: 80px;
   position: relative;
-  background: var(--color-black);
-  transition: 0.5s;
+  position: relative;
 }
-
-#location:hover {
-  background: none;
+#location::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#location:hover::before {
+  transition: .5s;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .location-iframe {
-  opacity: 0.3;
+  opacity: 1;
   width: 100%;
   z-index: -1;
 }

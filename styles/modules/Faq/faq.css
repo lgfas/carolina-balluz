@@ -38,7 +38,7 @@
 }
 
 .faq-questions button.active-question {
-  border: 2px solid var(--color-black);
+  border: 2px solid var(--color-primary);
 }
 
 .faq-answers {
@@ -54,6 +54,11 @@
 .faq-answers dd.active {
   display: block;
   text-align: justify;
+}
+
+.faq-answers p {
+	font-size: 16px;
+	line-height: 24px;
 }
 
 .faq-answers a {

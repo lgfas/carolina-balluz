@@ -3,6 +3,7 @@
 	/* background-color: linear-gradient(#BDE0E0, #79CBCB); */
 	background-color: var(--color-primary);
 	background-image: url("/assets/images/teste.png");
+	background-size: cover;
 	background-position: center;
 }
 

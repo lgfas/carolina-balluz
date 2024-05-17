@@ -3,7 +3,7 @@
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  border-radius: 8px;
+  border-radius: 28px;
   overflow: hidden;
   background: linear-gradient(180deg, #bde0e0aa, #79cbcb);
 }

@@ -9,6 +9,7 @@
 @import url("./modules/Call-to-action/call-to-action.css");
 @import url("./modules/About/about.css");
 @import url("./modules/Location/location.css");
+@import url("./modules/Faq/faq.css");
 
 :root {
   --color-primary: #004d4f;

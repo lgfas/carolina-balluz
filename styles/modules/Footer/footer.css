@@ -54,5 +54,13 @@ footer {
  @media only screen and (max-width: 768px) { 
     .footer {
         grid-template-columns: 1fr;
+        padding: 32px;
+    }
+    .newsletter-footer {
+        margin-top: 18px;
+        align-items: flex-start;
+    }
+    .politicas {
+        margin: 0;
     }
  }

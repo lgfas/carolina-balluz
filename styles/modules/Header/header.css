@@ -87,38 +87,50 @@
   gap: 14px;
 }
 
-.logo-image {
-  height: 60px;
+.logo img {
+  width: 200px;
 }
-
+/* Estilos para dispositivos móveis */
 /* Estilos para dispositivos móveis */
 @media only screen and (max-width: 768px) {
   .header {
-    flex-direction: column;
-    align-items: flex-start;
     padding: 16px;
-  }
-
-  .menu-container {
-    flex-direction: column;
-    gap: 32px;
-  }
-
-  .agendar-consulta {
-    width: 100%;
+    flex-wrap: wrap;
     justify-content: center;
   }
 
-  .sidebar {
+  .logo {
     width: 100%;
-    right: -100%;
+  }
+  .logo img {
+    width: 150px;
+    margin: 16px auto;
+  }
+  .agendar-consulta {
+    width: 50%;
+  }
+  .menu-container {
+    flex-direction: flex;
+    gap: 16px; /* Reduzido o espaçamento entre os itens */
+  }
+
+  .agendar-consulta {
+    width: auto; /* Ajuste automático da largura */
+    justify-content: flex-start; /* Alinhamento à esquerda */
+  }
+
+  .sidebar {
+    right: -100%; /* Mantém a barra lateral oculta */
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+
+  .icon-close img {
+    width: 24px;
   }
 
   .menu-open .sidebar {
-    right: 0;
-  }
-
-  .logo-image {
-    height: 40px;
+    width: 85%;
   }
 }

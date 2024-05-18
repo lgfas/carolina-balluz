@@ -81,3 +81,11 @@
   gap: 8px;
   max-width: max-content;
 }
+
+@media only screen and (max-width: 768px) {  
+  .faq-content {
+    grid-template-columns: 1fr;
+    padding: 16px;
+    gap: 20px;
+  }
+}

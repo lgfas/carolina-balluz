@@ -49,3 +49,17 @@
 .box-image-about img {
 	height: 500px;
 }
+
+@media only screen and (max-width: 768px) {
+	.about-bg {
+		background: var(--color-primary);
+	}  
+	.about {
+		grid-template-columns: 1fr;
+		padding: 32px;
+	}
+	.about-content-buttons {
+		font-size: 14px !important;
+		gap: 8px;
+	}
+}

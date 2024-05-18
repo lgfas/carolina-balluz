@@ -33,3 +33,18 @@
   gap: 8px;
   margin-left: 108px;
 }
+
+@media only screen and (max-width: 768px) { 
+  #call-to-action {
+    padding: 16px;
+  }
+  .call-to-action h2 {
+    text-align: center;
+    margin: 16px 0;
+    font-size: 24px;
+  }
+  .call-to-action {
+    margin-bottom: 24px;
+    padding: 32px;
+  }
+}

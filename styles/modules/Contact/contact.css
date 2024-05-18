@@ -40,6 +40,9 @@
 @media only screen and (max-width: 768px) { 
 
     .contact {
+        margin: 0px auto 24px auto;
         grid-template-columns: 1fr;
+       padding: 32px;
+       gap: 32px;
     }
 }

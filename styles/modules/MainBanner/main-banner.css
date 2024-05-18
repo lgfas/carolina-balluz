@@ -24,9 +24,9 @@
   flex-direction: column;
   gap: 22px;
   flex-grow: 1;
-  z-index: 99;
+  z-index: 4;
 }
-.banner-content h1 { 
+.banner-content h1 {
   font-family: "NT Vanilla", serif;
   font-size: 28px;
 }
@@ -45,21 +45,20 @@
   margin-left: 150px;
 }
 
-
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 768px) {
   .banner-content {
     margin: 0;
     text-align: center;
   }
   .main-banner {
-   grid-template-columns: 1fr;
-   justify-content: center;
-   padding: 32px 32px 0px 32px;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 32px 32px 0px 32px;
   }
   .main-banner-img {
     margin: 16px auto 0px auto;
   }
-  .main-banner-img img{
+  .main-banner-img img {
     margin: 0;
     height: 40vh;
   }

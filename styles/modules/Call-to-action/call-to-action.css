@@ -34,7 +34,7 @@
   margin-left: 108px;
 }
 
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 768px) {
   #call-to-action {
     padding: 16px;
   }
@@ -46,5 +46,18 @@
   .call-to-action {
     margin-bottom: 24px;
     padding: 32px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .call-to-action {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .call-to-action a {
+    max-width: max-content;
+    align-self: center;
+    margin-left: 0px;
   }
 }

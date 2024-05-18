@@ -149,9 +149,15 @@
 
 @media only screen and (max-width: 768px) {  
   .swiper-slide {
-    width: 100%;
+    width: 200px !important;
   }
   .swiper-slide-active {
-    width: 100%
+    width: 200px !important;
   }
+ .truncate {
+    width: 200px; /* Largura máxima do bloco de texto */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 }

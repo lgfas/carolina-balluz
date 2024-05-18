@@ -71,3 +71,12 @@
   display: inline-block;
   justify-self: center;
 }
+
+@media only screen and (max-width: 768px) {  
+  .how {
+    padding: 16px;
+  } 
+  .how-cards {
+    grid-template-columns: 1fr;
+  }
+}

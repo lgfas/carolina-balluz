@@ -39,3 +39,38 @@
 .container {
   max-width: 1264px;
 }
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.how-cards li {
+  animation: slideUp 1s ease-in-out;
+}
+
+/* Adicionando um atraso de animação progressivo para cada elemento */
+.how-cards li:nth-child(odd) {
+  animation-delay: 0.1s; /* Atraso de 0.1s para os elementos ímpares */
+}
+
+.how-cards li:nth-child(even) {
+  animation-delay: 0.2s; /* Atraso de 0.2s para os elementos pares */
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

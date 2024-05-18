@@ -25,7 +25,7 @@ var mySwiper = new Swiper('.mySwiper', {
     delay: 2500,  // O tempo de atraso em milissegundos entre transições automáticas
     disableOnInteraction: true,  // Continuar autoplay após interações do usuário (como swipes)
   },
-  speed: 1000
+  speed: 1000,
 });
 
 

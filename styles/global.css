@@ -26,6 +26,7 @@
 * {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
+  scroll-behavior: smooth;
 }
 
 .button {
@@ -74,3 +75,5 @@
     opacity: 1;
   }
 }
+
+sm

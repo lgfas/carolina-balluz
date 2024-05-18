@@ -24,6 +24,7 @@
   flex-direction: column;
   gap: 22px;
   flex-grow: 1;
+  z-index: 99;
 }
 .banner-content h1 { 
   font-family: "NT Vanilla", serif;

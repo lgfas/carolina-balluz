@@ -88,4 +88,8 @@
     padding: 16px;
     gap: 20px;
   }
+
+  .faq-questions {
+    justify-self: center;
+  }
 }
